@@ -1,0 +1,40 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E8E8E8;
+}
+
+.chapeau{
+    display: flex;
+    margin: 1em;
+    font-size: 1em;
+}
+
+.preview{
+    display: inline-block;
+    margin: 1em;
+    width: 40%;
+}
+
+.box-tweet{
+    font-size: 0.7rem;
+    display: inline-block;
+    width: 40%;
+}
+
+.bouton-next{
+    padding: 1em;
+    display: block;
+    color: white;
+    background-color: #2A2929;
+    
+}
+
+.lire{
+    display: inline-block;
+}
+
+.next-arrow{
+    padding-left: 5em;
+    display: inline-block;
+    width: 15%;
+}

@@ -1,0 +1,9 @@
+@import url("./header.css"); /* Using a string */
+
+@import url("./main.css"); /* Using a string */
+
+@import url("./footer.css"); /* Using a string */
+
+@import url("./article.css"); /* Using a string */
+
+@import url("./formulaire-contact.css"); /* Using a string */
