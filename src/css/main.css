@@ -48,3 +48,7 @@ body{
     display: inline-block;
     width: 14%;
 }
+
+.tweet{
+    background-color: none;
+}
