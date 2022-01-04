@@ -1,6 +1,13 @@
+
+
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: #E8E8E8;
+}
+
+.noscroll,
+.noscroll body{
+    overflow: hidden;
 }
 
 .chapeau{
@@ -18,15 +25,16 @@ body{
 .box-tweet{
     font-size: 0.7rem;
     display: inline-block;
-    width: 25%;
+    width: 22%;
     background-color: red;
 }
 
 .bouton-next{
-    padding: 1em;
+    padding: 0.5em;
     display: block;
     color: white;
     background-color: #2A2929;
+    margin-bottom: 0.5em;
     
 }
 
