@@ -3,6 +3,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: #E8E8E8;
+    color: #2A2929;
 }
 
 .noscroll,
@@ -51,4 +52,45 @@ body{
 
 .tweet{
     background-color: none;
+}
+
+.affiche{
+    display: flex;
+    width: 100%;
+}
+
+.bandeau-rouge{
+    text-align: left;
+    color: white;
+    background-color: #982118;
+    height: 8vh;
+    padding: 0.2em;
+    padding-left: 1em;
+}
+
+.block-txt{
+    text-align: left;
+    padding: 1em;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.block-img-leg{
+    padding: 1em;
+    text-align: center;
+    font-size: 0.6rem;
+}
+
+.img-article{
+    width: 100%;
+}
+
+.bandeau-noir{
+    width: 80%;
+    font-size: 1rem;
+    display: inline-block;
+    color: white;
+    background-color: #2A2929;
+    height: 8vh;
+    padding: 0.5em;
 }
