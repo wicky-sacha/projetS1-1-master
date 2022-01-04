@@ -39,11 +39,11 @@ body{
 
 .lire{
     display: inline-block;
-    font-size: 0.5rem;
+    font-size: 0.4rem;
 }
 
 .next-arrow{
     padding-left: 1em;
     display: inline-block;
-    width: 11%;
+    width: 14%;
 }
