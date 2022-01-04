@@ -38,7 +38,7 @@ a{
 }
 
 .nav-links a{
-    text-align: center;
+    margin-right: 5em;
     color: #2A2929;
     text-decoration: none;
     letter-spacing: 3px;
