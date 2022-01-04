@@ -26,9 +26,10 @@ body{
 }
 
 .box-tweet{
+    margin-inline: 0em;
     font-size: 0.7rem;
     display: inline-block;
-    width: 30%;
+    width: 26%;
 }
 
 .bouton-next{
@@ -36,8 +37,6 @@ body{
     display: block;
     color: white;
     background-color: #2A2929;
-    margin-bottom: 0.5em;
-    
 }
 
 .lire{
