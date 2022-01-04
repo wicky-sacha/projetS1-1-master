@@ -116,3 +116,14 @@ blockquote {
     margin-top: 0em;
     margin-bottom: 2em;
 }
+
+.nd-title{
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.img-left{
+    display: inline-block;
+    width: 50%;
+}
