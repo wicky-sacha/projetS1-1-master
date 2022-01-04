@@ -18,7 +18,8 @@ body{
 .box-tweet{
     font-size: 0.7rem;
     display: inline-block;
-    width: 40%;
+    width: 25%;
+    background-color: red;
 }
 
 .bouton-next{
@@ -31,10 +32,11 @@ body{
 
 .lire{
     display: inline-block;
+    font-size: 0.5rem;
 }
 
 .next-arrow{
-    padding-left: 5em;
+    padding-left: 1em;
     display: inline-block;
     width: 15%;
 }
