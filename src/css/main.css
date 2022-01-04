@@ -102,7 +102,11 @@ body{
 /* Solid border */
 hr.solid {
     border-top: 3px solid #982118;
-  }
+}
+
+hr.solid2 {
+    border-top: 2px solid #2A2929;
+}
 
 blockquote {
     font-size: 1rem;
@@ -126,4 +130,8 @@ blockquote {
 .img-left{
     display: inline-block;
     width: 50%;
+}
+
+.form-title{
+    margin-bottom: -0.9em;
 }
