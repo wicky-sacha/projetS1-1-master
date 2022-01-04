@@ -94,3 +94,8 @@ body{
     height: 8vh;
     padding: 0.5em;
 }
+
+/* Solid border */
+hr.solid {
+    border-top: 3px solid #982118;
+  }
