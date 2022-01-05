@@ -16,12 +16,12 @@
 .images15 {
 	width: 371px;
 	height: 344px;
-	left:0;
+	left: 0px;
 }
 
 .images15 img{
-	width: 371px;
-	height: 344px;
+	height: 100%;
+	padding-left: 3em;
 }
 
 .image15 {
