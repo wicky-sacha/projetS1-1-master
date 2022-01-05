@@ -46,14 +46,14 @@ body{
 
 .lire{
     display: inline-block;
-    font-size: 0.3rem;
+    font-size: 0.4rem;
     padding: 0.3em;
 }
 
 .next-arrow{
     padding-left: 1em;
     display: inline-block;
-    width: 14%;
+    width: 40%;
 }
 
 .tweet{
