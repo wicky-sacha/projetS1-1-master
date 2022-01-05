@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+	<script src="https://animejs.com/lib/anime.min.js"></script>
     <title>La justice française</title>
 </head>
 <body>
@@ -76,19 +78,18 @@
         <h3>Comment mène-t-on une enquête pour meurtre ?</h3>
     </div>
 
-    <div class="block-img-leg">
-        <img class="img-article" src="./public/img/crime1.jpeg" alt="Scène de crime">
-        <p>Une scène de crime. On y voit la position de la victime quand elle a été retrouvée et les différentes preuves autour.
-        </p>
+    <div class="legendeSurImage">
+        <div class="visionneuse">
+            <div class="image image13"
+                x-on:mouseover="monterLegende();"
+                x-on:mouseleave="descendreLegende();">
+                <img src="./public/img/crime1.jpeg"/></div>
+            <p class="texte13">Une scène de crime. On y voit la position de la victime quand elle a été retrouvée et les différentes preuves autour.</p>
+        </div>
     </div>
 
     <div class="block-txt">
         <p>Il y a plusieurs étapes dans une enquête. Tout d’abord, des recherches sont menées sur place. Il faut :</p>
-    </div>
-
-
-    <div class="block-txt">
-        <p>Le mieux est donc de voir le film pour se forger son avis !</p>
     </div>
 
     <div class="nd-title">

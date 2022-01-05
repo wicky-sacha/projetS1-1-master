@@ -139,3 +139,38 @@ blockquote {
 .form-title{
     margin-bottom: -0.9em;
 }
+
+.visionneuse {
+	grid-column: 2;
+	grid-row: 2;
+	width: 500px;
+	height: 323px;
+	padding: 1px;
+	position: relative;
+	overflow: hidden;
+}
+
+.image img{
+	width: 70%;
+	z-index: 1;
+	position: relative;
+}
+		
+.texte13 {
+	position: relative;
+	text-align: center;
+	width: 70%;
+	margin: 0px;
+	padding: 0px;
+	z-index: 2;
+	line-height: 1.5em;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.55);
+	top: 0;
+	display: none;
+    font-size: 1rem;
+}
+
+.legendeSurImage{
+    margin-top: 2em;
+}
