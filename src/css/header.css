@@ -39,7 +39,7 @@ a{
 
 .nav-links a{
     margin-right: 5em;
-    color: #2A2929;
+    color: grey;
     text-decoration: none;
     font-weight: bold;
     font-size: 0.8rem;
@@ -72,7 +72,7 @@ a{
         width: 100vh;
         background-image: url("/public/img/menu-background.png");
         background-repeat: no-repeat;
-        display: flex;
+        background-size: 105%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -108,3 +108,10 @@ a{
 }
 /* FIN RESPONSIVE NAV BAR */
 /* FIN NAV BAR */
+
+.menu-bar{
+    border-bottom: solid;
+    border-color: #2A2929;
+    border-width: 100%;
+}
+
