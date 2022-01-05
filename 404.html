@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<link rel="stylesheet" href="./assets/css/404.css">
+<title>404 - Page Non trouvée</title>
+<link rel="icon" href="./public/img/icon/flavicon.ico"/>
+<h1>ERREUR 404 -<br>Page Non trouvée</h1>
+
+<div class="box1">
+    <a href="index.html"><img class="logo404" src="./public/img/LOGO.png" alt="Logo Pomme"></a>
+</div>
+
+<form action="https://www.google.com/search?" method="GET" 
+    x-data="{ q:'', }" 
+    x-on:submit="q = q + ' site:madness-of-manga.sachawicky.fr'">
+    <label for="q"></label>
+    <input type="text" id="q" name="q" x-model="q">
+    <button type="submit">Rechercher</button>
+</form>

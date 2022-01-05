@@ -1,0 +1,72 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E8E8E8;
+    color: #2A2929;
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: #2A2929;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 8vh;
+}
+
+.logo404{
+    margin-top: -2vh;
+    margin-bottom: 3vh;
+    align-items: center;
+    width: 35%;
+}
+
+form{
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    width: 70%;
+    font-size: 2rem;
+    color: white;
+}
+
+input{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 90%;
+    font-size: 2rem;
+    color: black;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 90%;
+    font-size: 2rem;
+    background-color: #ffa800;
+    border-color: white;
+    color: white;
+}
+
+button:hover{
+    background-color: #1970A4;
+}
+
+@media(max-width: 574px){
+    .frida1{
+        width: 90%;
+    }
+
+    .box1{
+        width: 90%;
+    }
+}
